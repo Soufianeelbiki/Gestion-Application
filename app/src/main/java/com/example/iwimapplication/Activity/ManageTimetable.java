@@ -71,13 +71,12 @@ public class ManageTimetable extends AppCompatActivity implements View.OnClickLi
     }
 
     @Override
-    public void onClick(View v) {
-        if(v.getId() == R.id.ab_back){
-            Intent intent = new Intent(this, Home.class);
-            startActivity(intent);
-            finish();
-        }
-    }
+    
+	class mmy test extends ArrayAdapter<String>{
+        Context context;
+        String titles[];
+        int icons[];
+
 
     class myAdapter extends ArrayAdapter<String>{
         Context context;
