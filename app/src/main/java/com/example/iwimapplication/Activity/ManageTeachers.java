@@ -126,6 +126,19 @@ public class ManageTeachers extends AppCompatActivity implements View.OnClickLis
                 Toast.makeText(getApplicationContext(),"Pas de demande d'adhésion",
                         Toast.LENGTH_SHORT).show();
             }
+	
+        }
+	
+	myAdapter2(Context context, ArrayList<User> list){
+            super(context, R.layout.useritem);
+            this.context=context;
+            this.usersList=list;
+
+            if(this.usersList.size()==0){
+                Toast.makeText(getApplicationContext(),"Pas de demande d'adhésion",
+                        Toast.LENGTH_SHORT).show();
+            }
+	
         }
 
         public int getCount() {
