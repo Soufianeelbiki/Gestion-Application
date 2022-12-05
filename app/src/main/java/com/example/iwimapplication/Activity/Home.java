@@ -160,7 +160,7 @@ public class Home extends AppCompatActivity  {
                             message.setOnClickListener(new View.OnClickListener() {
                                 @Override
                                 public void onClick(View v) {
-                                    Toast.makeText(Home.this,"Message picked",
+                                    Toast.makeText(Home.this,"Message was never picked",
                                             Toast.LENGTH_SHORT).show();  // Partie ilyas & reda
                                 }
                             });
