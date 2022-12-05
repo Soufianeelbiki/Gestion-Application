@@ -124,6 +124,7 @@ public class listProf extends AppCompatActivity implements View.OnClickListener{
             User user = this.usersList.get(position);
 
             final String uid = user.getUid();
+            final String uid1 = user.getUid();
 
             photo.setImageResource(R.drawable.profile);
 
