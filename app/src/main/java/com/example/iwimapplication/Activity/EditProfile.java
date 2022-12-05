@@ -97,6 +97,7 @@ public class EditProfile extends AppCompatActivity implements View.OnClickListen
     @Override
     public void onClick(View v) {
         firstname1 = findViewById(R.id.fname);
+        firstname2 = findViewById(R.id.fname);
         secondname1 = findViewById(R.id.sname);
         email1 = findViewById(R.id.email);
         name1 = firstname1.getText().toString().trim();

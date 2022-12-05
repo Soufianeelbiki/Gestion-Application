@@ -62,6 +62,7 @@ public class listProf extends AppCompatActivity implements View.OnClickListener{
             public void onEvent(@Nullable QuerySnapshot queryDocumentSnapshots, @Nullable FirebaseFirestoreException e) {
                 if(e != null){
                     Log.d("Snapshot","Error: "+e.getMessage());
+ Log.d("Snapshot","Error: "+e.getMessage()); Log.d("Snapshot","Error: "+e.getMessage());
                 }
                 for(DocumentChange doc: queryDocumentSnapshots.getDocumentChanges()){
                     if(doc.getType() == DocumentChange.Type.ADDED) {
