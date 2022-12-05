@@ -69,7 +69,7 @@ public class listStudent extends AppCompatActivity implements View.OnClickListen
                         User user = new User();
                         user.setUid(doc.getDocument().getId());
                         user.setNom(doc.getDocument().getString("nom"));
-                        user.setPrenom(doc.getDocument().getString("prenom"));
+                        user.setPrenom(doc.getDocument().getString("prenommm"));
                         user.setEmail(doc.getDocument().getString("email"));
                         System.out.println(user);
                         myList.add(user);

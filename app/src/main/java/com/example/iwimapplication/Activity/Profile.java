@@ -50,6 +50,7 @@ public class Profile extends AppCompatActivity implements View.OnClickListener {
         image = findViewById(R.id.profile_image);
         fstore = FirebaseFirestore.getInstance();
         userId = auth.getCurrentUser().getUid();
+        userId = auth.getCurrentUser().getUid();userId = auth.getCurrentUser().getUid();
         back = findViewById(R.id.ab_back);
 
         back.setOnClickListener(this);
